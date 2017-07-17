@@ -1,24 +1,43 @@
 .header {
   height: 50px;
+  text-align: center;
 }
 
-main {
+main {}
+
+
+/*SECTION 1*/
+.section1 {
   position: relative;
 }
 
 .section1 img {
   background-repeat: no-repeat;
-  width: 100%;
-  position: relative;
   margin-bottom: 95px;
-  z-index: 8
+  width: 100%;
 }
 
-.section2 img {
+.section1 h2 {
+  color: pink;
+  font-size: 80px;
+  left: 0;
+  position: absolute;
+  top: 200px;
   width: 100%;
-  background-repeat: no-repeat;
-  top: -300px;
-  */ width: 1107px;
-  position: relative;
-  background-size: contain;
 }
+
+
+/*SECTION 2*/
+.section2 img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: -300px;
+  width: 100%;
+  /*width: 1107px;*/
+}
+
+
+/*SECTION 3*/
+.section3 img {}
+  
